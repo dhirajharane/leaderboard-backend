@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 // Enable CORS for Vercel frontend
-app.use(cors({ origin: ['http://localhost:5173', 'https://*.vercel.app'] }));
+app.use(cors({ origin: ['http://localhost:5173', 'leaderboard-frontend-xi-ashen.vercel.app'] }));
 
 // Parse JSON request bodies
 app.use(express.json());
