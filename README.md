@@ -78,4 +78,4 @@ Server runs on: [http://localhost:5000](http://localhost:5000)
 ## Testing
 - Use **Postman** to test endpoints.
 - Verify MongoDB collections: `users` and `pointHistory`.
-- Ensure CORS allows frontend (`http://localhost:5173` or `https://*.vercel.app`).
+- Ensure CORS allows frontend (`http://localhost:5173`).
